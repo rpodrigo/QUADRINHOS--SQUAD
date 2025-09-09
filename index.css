@@ -1,12 +1,14 @@
-header {
+.header-body {
     background-color: #000000;
     display: flex;
     justify-content: space-evenly;
     align-items: center;
+    padding: 30px;
+    gap:30 ;
 }
 
-.div-icon i {
-    color: white;
+.div-icon0 i {
+    color: yellow;
     font-size: 40px;
 
 }
@@ -19,7 +21,11 @@ header {
 
 }
 
-.div-list ul li {
+
+.div-list ul, li {
+
+    display: flex;
+    gap: 10px;
     list-style: none;
     color: yellow; /*remove "bolinhas da lista*/
 }
@@ -27,4 +33,35 @@ header {
 .div-list ul li a {
     text-decoration: none; /*remove o sublinhado*/
     color: yellow; /*cor da lrtra*/
+}
+
+.section-01 {
+    background-color: #e32d40; /*cor de fundo*/
+    display: flex; /*tornando o item flex/lado a lado*/
+    justify-content: space-evenly; /*alinhamento horizontal*/
+    align-items: center; /*alinhamento vertical*/ 
+    gap: 15px; /*espaço entre as div*/
+    padding: 100px; /*Prennchimento interno*/
+}
+
+.img-section-01{
+    width: 300px; /*largura da imagem*/
+    height: 350px; /* altura da img*/
+    box-shadow: 10px 10px 20px white; /*sombra da caixa*/
+    border-radius: 40px; /*arrendondamento da img*/
+}
+
+.section-01 p {
+    color: white; /*cor da letra*/
+    font-size: 30px; /*tamanho da letra*/
+    font-family: arial; /*familia de font*/
+    margin-left: 30px;  /*espaçamento lateral esquerdo*/
+    font-weight: 700; /*peso da fonte*/
+    text-align: center; /*alinhamento do texto*/
+}
+
+span {
+    font-size: 40px;
+    color: yellow;
+    text-transform: uppercase;
 }
