@@ -15,8 +15,7 @@
 
 .div-title h1 {
     font-size: 25px;
-    text-transform: uppercase;
-    /*d4ixa o texto em caixa alta*/
+    text-transform: uppercase; /*d4ixa o texto em caixa alta*/
     color: yellow;
 
 }
@@ -29,56 +28,43 @@ li {
     gap: 10px;
     list-style: none;
     color: yellow;
-    /*remove "bolinhas da lista*/
+
 }
 
 .div-list ul li a {
-    text-decoration: none;
+    text-decoration: none; /*remove "bolinhas da lista*/
     /*remove o sublinhado*/
     color: yellow;
     /*cor da lrtra*/
 }
 
 .section-01 {
-    background-color: #000000;
-    /*cor de fundo*/
-    display: flex;
-    /*tornando o item flex/lado a lado*/
-    justify-content: space-evenly;
-    /*alinhamento horizontal*/
-    align-items: center;
-    /*alinhamento vertical*/
-    gap: 15px;
-    /*espaço entre as div*/
-    padding: 100px;
-    /*Prennchimento interno*/
+    background-color: #000000; /*cor de fundo*/
+    display: flex; /*tornando o item flex/lado a lado*/
+    justify-content: space-evenly; /*alinhamento horizontal*/
+    align-items: center; /*alinhamento vertical*/
+    gap: 15px; /*espaço entre as div*/
+    padding: 100px; /*Prennchimento interno*/
+    
 }
 
 .img-section-01 {
-    width: 300px;
-    /*largura da imagem*/
-    height: 350px;
-    /* altura da img*/
-    box-shadow: 10px 10px 20px white;
-    /*sombra da caixa*/
-    border-radius: 40px;
-    /*arrendondamento da img*/
+    width: 300px; /*largura da imagem*/
+    height: 350px; /* altura da img*/
+    box-shadow: 10px 10px 20px white;  /*sombra da caixa*/
+    border-radius: 40px; /*arrendondamento da img*/
+    
 }
 
 .section-01 p {
-    color: white;
-    /*cor da letra*/
-    font-size: 30px;
-    /*tamanho da letra*/
-    font-family: arial;
-    /*familia de font*/
-    margin-left: 30px;
-    /*espaçamento lateral esquerdo*/
-    font-weight: 700;
-    /*peso da fonte*/
-    text-align: center;
-    /*alinhamento do texto*/
-    justify-content: space-evenly;
+    color: white; /*cor da letra*/
+    font-size: 30px; /*tamanho da letra*/
+    font-family: arial; /*familia de font*/
+    margin-left: 30px; /*espaçamento lateral esquerdo*/
+    font-weight: 700; /*peso da fonte*/
+    text-align: center; /*alinhamento do texto*/
+    
+
 }
 
 span {
@@ -89,19 +75,15 @@ span {
 
 
 .section-02 {
-    background-color: black;
-    /* cor de fundo*/
-    padding: 100px;
-    /*Espaçamento interno*/
-    display: flex;
-    /*os itens ficaram lado a lado*/
-    flex-direction: column;
-    /*modificação a direção*/
-    align-items: center;
-    justify-content: space-evenly;
+    background-color: black; /* cor de fundo*/
+    padding: 100px;  /*Espaçamento interno*/
+    display: flex; /*os itens ficaram lado a lado*/
+    flex-direction: column; /*modificação a direção*/
+    align-items: center; /*alinhamento vertical*/
+    justify-content: space-evenly; /*alinhamento horizontal*/
 }
 
-.div-icons {
+.div-icons i {
     color: yellow;
     font-size: 40px;
     margin-left: 20px
@@ -112,41 +94,40 @@ span {
     color: white;
     font-size: 30px
 }
+.section-03 {
+    padding: 150px;
+    background-image: ;
+}
+
+
+
+
+
 
 .section-04 {
-    background-color: grey;
-    /* cor de fundo da section*/
-    padding: 100px;
-    /*Espaçamento interno*/
-    display: flex;
-    /**/
-    gap: 10px;
-    /*Espaçamento interno*/
-    align-items: center;
-    /*alinhamento vertical*/
-    justify-content: center;
-
-
-
+    background-color: grey; /* cor de fundo da section*/
+    padding: 100px;  /*Espaçamento interno*/
+    display: flex; /*tornando a section interno da section*/
+    gap: 10px; /*Espaçamento entre caixas*/
+     justify-content: center; /*alinhamento horizontal */
+    align-items: center; /*alinhamento vertical*/
+    
 
 }
 
 /* aqui estamos as 3 caixas (div) */
-.div-section-04 {
-    width: 350px;
-    height: 350px;
+.div-section-04 { 
+    width: 350px;  /*largura das 3 caixas*/
+    height: 350px; /*altura das 3 caixas*/
     background: blue;
 }
 
 .div-dog {
-    background-image: url(imagem.SQUAD/dog.jpg);
-    /**/
-    background-repeat: no-repeat;
-    /**/
-    background-size: cover;
-    /**/
-    background-position: center;
-    /**/
+    background-image: url(imagem.SQUAD/dog.jpg);/*imagem de fundo da caixa*/
+    background-repeat: no-repeat; /*removendo repetição da imagem*/
+    background-size: cover;  /*preenchimento completo da img*/
+    background-position: center; /*posicionamento da imagem*/
+    
 }
 
 .div-section-04 {
@@ -154,4 +135,45 @@ span {
     padding: 10px;
     
     
+}
+
+.div-user img {
+    width: 100px;
+    height: 100px;
+}
+
+/*estilização da primeira caixa */
+.div-star h3 { /*estilização do titulo*/
+    font-size: 25px; /*tamanho da letra do titulo*/
+    color: white; /*cor da letra*/
+    text-transform: uppercase; /*tornando o texto em caixa alta*/
+
+}
+
+.div-star p { /*Estilização do paragrafo da primeira caixa*/
+    color: white; /*cor da letra*/
+    font-size: 20px; /*tamanho da letra*/
+}
+
+.div-star i {
+    color: yellow;
+    font-size: 30px;
+}
+
+footer {
+    background-color: black; /*cor de fundo*/
+    padding: 50px; /*preenchimento para fazer alinhamento*/
+    color: yellow;  /*cor da letra*/
+    /*sempre alinhar os itens utilizado o display: flex e suas propriedade */
+
+    display: flex; /*utilizando para fazer alinhamento*/
+    align-items: center; /*alinhamento vertical*/
+    justify-content: center; /*alinhamento horizontal*/
+    text-align: center; /*alinhamento de texto*/
+    font-size: 25px;  /*aumentado tamanho dos textos*/
+}
+
+footer i {
+    font-size: 40px;
+    color: white;
 }
